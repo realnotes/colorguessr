@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Roboto;
+}
+body{
+  padding:20px
+}
+h1{
+  font-size:40px;
+  text-align:center;
+  margin-bottom:5px
+}
+h2{
+  font-size:22px;
+  font-weight:normal;
+  text-align:center;
+  margin-bottom:30px;
+}
+#round, #your{
+  font-size:18px;
+  font-style:italic;
+  margin:20px 0 5px;
+}
+#color{
+  height:200px;
+  background-color:rgb(0,0,0)
+}
+#colors{
+  text-align:center;
+  margin:25px 0 15px;
+}
+#colors label{
+  font-size:20px;
+  font-weight:bold;
+}
+#colors input{
+  font-size:20px;
+  text-align:center;
+  width:100px;
+  border:1px solid black;
+  border-radius:0;
+}
+#colors input:focus{
+  outline:2px solid black;
+}
+#buttons{
+  text-align:center;
+  margin-bottom:25px;
+}
+#buttons button{
+  font-size:18px;
+  border:1px solid black;
+  border-radius:0;
+  padding:2px 8px;
+  color:white;
+  background-color:black;
+}
+#buttons button:hover{
+  color:black;
+  background-color:white;
+}
+#guess{
+  display:none;
+}
+#results{
+  display:none;
+}
+#actual, #score{
+  font-size:18px;
+  font-weight:bold;
+}
+#yourColor{
+  height:50px;
+  background-color:rgb(0,0,0);
+}
